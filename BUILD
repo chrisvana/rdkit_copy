@@ -2,7 +2,8 @@
 [
   { "config": {
       "component": "rdkit",
-      "component_root": "Code"
+      "component_root": "Code",
+      "licenses": [ "http://opensource.org/licenses/BSD-3-Clause" ]
   } },
 
   { "cmake": {
