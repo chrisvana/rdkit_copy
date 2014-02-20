@@ -111,7 +111,7 @@
     "name": "DistGeomHelpers",
     "cc_objects": [ "$GEN_DIR/lib/libDistGeomHelpers_static.a" ],
     "strict_file_mode": false,
-    "dependencies": [ ":rdkit_make", ":rdkit_headers" ]
+    "dependencies": [ ":rdkit_make", ":rdkit_headers", ":DistGeometry" ]
   } },
   { "cc_library": {
     "name": "DistGeometry",
@@ -141,7 +141,7 @@
     "name": "ForceFieldHelpers",
     "cc_objects": [ "$GEN_DIR/lib/libForceFieldHelpers_static.a" ],
     "strict_file_mode": false,
-    "dependencies": [ ":rdkit_make", ":rdkit_headers" ]
+    "dependencies": [ ":rdkit_make", ":rdkit_headers", ":ForceField" ]
   } },
   { "cc_library": {
     "name": "ForceField",
